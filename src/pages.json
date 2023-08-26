@@ -1,10 +1,10 @@
 {
-  "easycom": {
+	"easycom": {
 		"autoscan": true,
 		"custom": {
 			// uni-ui 规则如下配置
 			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
-      "^hua(.*)":"@/components/hua$1.vue"
+			"^hua(.*)": "@/components/hua$1.vue"
 		}
 	},
 	"pages": [
@@ -12,8 +12,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-        "navigationStyle": "custom",
-        "navigationBarTextStyle": "white",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
 				"navigationBarTitleText": "首页"
 			}
 		},
@@ -45,6 +45,18 @@
 			"path": "pages/index/components/navbar",
 			"style": {
 				"navigationBarTitleText": "navbar"
+			}
+		},
+		{
+			"path": "pages/index/components/HomeTypes",
+			"style": {
+				"navigationBarTitleText": "HomeTypes"
+			}
+		},
+		{
+			"path": "pages/index/components/HotPanel",
+			"style": {
+				"navigationBarTitleText": "HotPanel"
 			}
 		}
 	],

@@ -6,8 +6,7 @@ export const useMemberStore = defineStore(
   'member',
   () => {
     // 会员信息
-    const profile = ref<any>()
-
+    const profile = ref<any>({ token: 'sssssss' })
     // 保存会员信息，登录时使用
     const setProfile = (val: any) => {
       profile.value = val
