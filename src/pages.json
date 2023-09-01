@@ -58,6 +58,12 @@
 			"style": {
 				"navigationBarTitleText": "HotPanel"
 			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTitleText": "hot"
+			}
 		}
 	],
 	"globalStyle": {
